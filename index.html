@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="test.php" method="post" enctype="multipart/form-data">
+        <p>
+            User: <input type="text" name="username">
+        </p>
+        <p>
+            Email: <input type="email" name="email" id="">
+        </p>
+        <p>
+            Number: <input type="number" name="" min="10" max="100" id="">
+        </p>
+        <p>
+            Hidden: <input type="hidden" name="data-id" value="1234">
+        </p>
+        <button type="submit" name="submit">Submit</button>
+        <p>
+            <!-- enctype required -->
+            <!-- mime types -->
+            File: <input type="file" name="pictures" accept="image/png, image/jpeg" id="">
+        </p>
+    </form>
+</body>
+</html>
